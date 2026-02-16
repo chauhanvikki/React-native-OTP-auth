@@ -1,21 +1,28 @@
 {
   "expo": {
-    "name": "passwordless-auth-app",
+    "name": "Passwordless Auth OTP",
     "slug": "passwordless-auth-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "platforms": ["ios", "android", "web"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chauhanvikki.passwordlessauth"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.chauhanvikki.passwordlessauth"
     },
     "web": {
       "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
     }
   }
 }
